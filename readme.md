@@ -1,4 +1,4 @@
-## Echo-Vision Foundation Model
+## Echo-Vision-FM: A Pre-training and Fine-tuning Framework for Echocardiogram Videos Vision Foundation Model
 
 This repository contains the codebase for pretraining and main training of the model. The pretraining phase focuses on learning general representations, while the main training phase fine-tunes the model for downstream tasks.
 
@@ -14,4 +14,4 @@ Downstream datasets include echonet_dynamic, camus and tmed.
 `accelerate launch --config_file ./config_twogpus.yaml train_main.py [-option]`
 
 ## Pre-trained checkpoint
-
+The best pre-trained weight can be downloaded via https://github.com/ZiyangZhang0511/Echo-Vison-FM/releases/tag/v1.
